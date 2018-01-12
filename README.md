@@ -8,4 +8,10 @@
 
 連線功能:https://sites.google.com/site/raspberypishare0918/home/di-yi-ci-qi-dong/1-6-you-xian-huo-wu-xian-dedhcp
 
+修正連線問題:https://superuser.com/questions/42460/can-you-explain-how-to-understand-what-the-iwconfig-command-displays-in-ubuntu    
+
+https://www.ptt.cc/bbs/Linux/M.1318004307.A.D42.html
+
+http://www.arthurtoday.com/2010/08/ubuntu.html
+
 ## 使用器材
