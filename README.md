@@ -18,5 +18,7 @@ SSH to raspberrypi:http://yhhuang1966.blogspot.tw/2014/02/ssh.html
 
 SSH一些設定的修正:https://www.youtube.com/watch?v=RgUM8ulMfHE
 
+使用圖形化介面ssh raspberrypi:https://www.youtube.com/watch?v=miGXUFyBvJQ
+
 
 ## 使用器材
