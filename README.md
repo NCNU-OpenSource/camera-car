@@ -20,6 +20,9 @@ http://www.arthurtoday.com/2010/08/ubuntu.html
 
 6.使用圖形化介面ssh raspberrypi:https://www.youtube.com/watch?v=miGXUFyBvJQ
 
+7.自走車套件組裝:http://goods.ruten.com.tw/item/show?21735010050329 ---參考自走車成品圖
+
+http://yhhuang1966.blogspot.tw/2017/06/arduino_28.html ---底盤組裝參考
 
 ## 使用器材
 1.長度20cm 10pin的母對母排線
