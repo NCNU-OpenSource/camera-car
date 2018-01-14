@@ -30,9 +30,9 @@ http://www.arthurtoday.com/2010/08/ubuntu.html
 
 ## 遇到的問題與解決方法概述
 
-Problem 1: 因最終目標pi需要能獨自行走, 所以得讓pi有自己的ip, 再以電腦ssh進入pi來遠程操控. 
+PROBLEM 1: 因最終目標pi需要能獨自行走, 所以得讓pi有自己的ip, 再以電腦ssh進入pi來遠程操控. 
 
-Solution : 我們的想法是以pi連上電腦熱點取得ip後, 再使用ssh連入此ip.
+SOLUTION : 我們的想法是以pi連上電腦熱點取得ip後, 再使用ssh連入此ip.
 
 首先使用putty, 並以serial方式進入pi.
   
@@ -69,9 +69,9 @@ p.s. 3: 在遇到access denied的情況下, 我們這遇到的情況是pi的ssh�
   
 
 
-Problem 2: 因pi外接了攝影機鏡頭, 我們必須要有方法能檢視鏡頭錄到的東西.
+PROBLEM 2: 因pi外接了攝影機鏡頭, 我們必須要有方法能檢視鏡頭錄到的東西.
   
-Soluton : 我們的想法是使用圖形化介面ssh pi, 這樣就能直接檢視拍到(或攝影到的)畫面了.
+SOLUTION : 我們的想法是使用圖形化介面ssh pi, 這樣就能直接檢視拍到(或攝影到的)畫面了.
 
 首先先下載xming並安裝, 之後再xming.exe右鍵進入內容, 並在目標後的內容 clipbord 後面的文字改為 -rootless, 儲存.
 
