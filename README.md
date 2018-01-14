@@ -60,7 +60,6 @@ Solution : 我們的想法是以pi連上電腦熱點取得ip後, 再使用ssh連
   
   再來用ifconfig獲取pi的ip後, 即可使用ssh登入pi的終端機畫面.
   
-  
   p.s. 1: 若wifi不是自己設置的, 可使用 sudo iwlist wlan0 scan 指令尋找附近可連線的基地台.
   
   p.s. 2: 因ssh進pi的文字顯示是黑色的, 所以可以在putty設定裡將backgrond的RGB改為255, 這樣底色就會變成白的, 避免進入pi後只看見一片黑.
