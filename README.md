@@ -67,7 +67,8 @@ p.s. 2: 因ssh進pi的文字顯示是黑色的, 所以可以在putty設定裡將
 p.s. 3: 在遇到access denied的情況下, 我們這遇到的情況是pi的ssh服務未開啟, 執行 sudo raspi-config, 進入interfacing option 即可將ssh功能啟動.
   
   
- 
+
+
 Problem 2: 因pi外接了攝影機鏡頭, 我們必須要有方法能檢視鏡頭錄到的東西.
   
 Soluton : 我們的想法是使用圖形化介面ssh pi, 這樣就能直接檢視拍到(或攝影到的)畫面了.
