@@ -57,8 +57,8 @@ Solution : 我們的想法是以pi連上電腦熱點取得ip後, 再使用ssh連
   再來輸入 sudo ifconfig wlan0 up 啟用無線網卡,
   
   最後打上 sudo dhclient -v wlan0 即連線成功.
-  
-  再來用ifconfig獲取pi的ip後, 即可使用ssh登入pi的終端機畫面.
+  
+  再來用ifconfig獲取pi的ip後, 即可使用ssh登入pi的終端機畫面.
   
   p.s. 1: 若wifi不是自己設置的, 可使用 sudo iwlist wlan0 scan 指令尋找附近可連線的基地台.
   
