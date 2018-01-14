@@ -135,5 +135,24 @@ SOLUTION : 我們的想法是使用圖形化介面ssh pi, 這樣就能直接檢�
 之後正常的以終端機介面登入後, 輸入startlxde執行, 過了一下之後就能看見xming出現了圖形化介面.
   
   
-  
-  
+#### PROBLEM 3: 實現攝影功能
+
+SOLUTION : 首先須有一台 Web camera, 並輸入sudo apt-get install fswebcam 和 sudo apt-get install motion 這兩項指令.
+
+分別為安裝拍照功能與攝影功能的軟體.
+
+單純的拍照, 只需輸入fswebcam [filename].[type] , 譬如像是 test.jpg這樣的指令, camera就會進行拍照, 並存在home目錄底下.
+
+而錄影部分, 因錄影即為連續拍照, 所以必須一直更新相機所拍到的照片, 這時就得將照片一直傳至指定的port, 再至此ip觀看才行.
+
+首先輸入 sudo vim /etc/motion/motion.conf 修改相關設定.
+
+將 daemon 改為 on, stream_localhost 改為 off, 這樣才能從外部連線至 webcam.
+
+再來將 /etc/default/motion 裡的 start_motion_daemon=no 改為 yes.
+
+然後 sudo service motion start, 重啟motion功能.
+
+最後只要在瀏覽器上網址打上 [pi的localhost ip] : 8081, 就能成功地看到webcam的攝影畫面.
+
+p.s : 一開始在進入此ip時曾經發生 access denied 的情形, 我們解決的方式和 problem 1 一樣, 進入 interfacing option 畫面, 將 camera 功能 enable 後即可成功連線.
