@@ -70,7 +70,7 @@ p.s. 3: 在遇到access denied的情況下, 我們這遇到的情況是pi的ssh�
 
 
 #### PROBLEM 2: 因pi外接了攝影機鏡頭, 我們必須要有方法能檢視鏡頭錄到的東西.
-  
+
 SOLUTION : 我們的想法是使用圖形化介面ssh pi, 這樣就能直接檢視拍到(或攝影到的)畫面了.
 
 首先先下載xming並安裝, 之後再xming.exe右鍵進入內容, 並在目標後的內容 clipbord 後面的文字改為 -rootless, 儲存.
