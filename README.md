@@ -30,7 +30,7 @@ http://www.arthurtoday.com/2010/08/ubuntu.html
 
 ## 遇到的問題與解決方法概述
 
-### PROBLEM 1: 因最終目標pi需要能獨自行走, 所以得讓pi有自己的ip, 再以電腦ssh進入pi來遠程操控. 
+#### PROBLEM 1: 因最終目標pi需要能獨自行走, 所以得讓pi有自己的ip, 再以電腦ssh進入pi來遠程操控. 
 
 SOLUTION : 我們的想法是以pi連上電腦熱點取得ip後, 再使用ssh連入此ip.
 
