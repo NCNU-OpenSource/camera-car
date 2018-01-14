@@ -156,3 +156,8 @@ SOLUTION : 首先須有一台 Web camera, 並輸入sudo apt-get install fswebcam
 最後只要在瀏覽器上網址打上 [pi的localhost ip] : 8081, 就能成功地看到webcam的攝影畫面.
 
 p.s : 一開始在進入此ip時曾經發生 access denied 的情形, 我們解決的方式和 problem 1 一樣, 進入 interfacing option 畫面, 將 camera 功能 enable 後即可成功連線.
+
+#### PROBLEM 4: 自走車套件
+SOLUTION : 我們訂購的自走車套件，現貨到的時候我們沒有仔細檢查，在開始做之後才發現馬達上有缺陷，並沒有接出正負兩極的線路讓我們能連到自走車套件上，
+
+所以我們必須自己將兩顆馬達的正副兩極焊接上，所幸的是我們有過焊接經驗，在這方面影響並不會太大。
