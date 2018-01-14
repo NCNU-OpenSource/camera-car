@@ -23,6 +23,7 @@ http://www.arthurtoday.com/2010/08/ubuntu.html
 
 ## 使用器材
 1.長度20cm 10pin(十根一排)的母對母排線
+
 2.Raspberry Pi USB Camera:
 
     免驅動迷你USB相機，支持所有版本的Raspberry Pi
