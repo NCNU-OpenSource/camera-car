@@ -24,12 +24,12 @@ http://www.arthurtoday.com/2010/08/ubuntu.html
 ## 使用器材
 1.長度20cm 10pin(十根一排)的母對母排線
 2.Raspberry Pi USB Camera:
-    免驅動迷你USB相機，支持所有版本的Raspberry Pi
-    鏡頭焦距：F6.0MM
-    對焦範圍：20MM
-    視頻分辨率：640 x 480
-    尺寸:3.8*3.0*1.5cm
-    帶捲線器，線長可調至65cm
+免驅動迷你USB相機，支持所有版本的Raspberry Pi
+鏡頭焦距：F6.0MM
+對焦範圍：20MM
+視頻分辨率：640 x 480
+尺寸:3.8*3.0*1.5cm
+帶捲線器，線長可調至65cm
 3.2WD自走車套件:
     3D裝配圖紙1張   
     小車底盤1片
