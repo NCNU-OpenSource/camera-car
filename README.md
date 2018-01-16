@@ -215,7 +215,7 @@ if len(sys.argv)<=1:
 
 else:
 
-  cmd = sys.argv[1]
+　cmd = sys.argv[1]
  
 print(cmd)
  
