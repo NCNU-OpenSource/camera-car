@@ -162,6 +162,14 @@ SOLUTION : 首先須有一台 Web camera, 並輸入sudo apt-get install fswebcam
 
 最後只要在瀏覽器上網址打上 [pi的localhost ip] : 8081, 就能成功地看到webcam的攝影畫面.
 
+![image](https://github.com/NCNU-OpenSource/camera-car/blob/master/C1.PNG?raw=true)
+
+![image](https://github.com/NCNU-OpenSource/camera-car/blob/master/C2.PNG?raw=true)
+
+在左上角可以看見,  瀏覽器是以 [pi的localhost ip] : 8081 的形式成功地觀看了攝影機所錄到的影像,
+
+並在 13:46:32 至 13:47:32 (攝影機畫面的右下角), 也就是在1秒後, 更新了在鏡頭前所擺放的物體.
+
 p.s : 一開始在進入此ip時曾經發生 access denied 的情形, 我們解決的方式和 problem 1 一樣, 進入 interfacing option 畫面, 將 camera 功能 enable 後即可成功連線.
 
 #### PROBLEM 4: 自走車套件
