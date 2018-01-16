@@ -177,6 +177,10 @@ SOLUTION : 我們訂購的自走車套件，現貨到的時候我們沒有仔細
 
 所以我們必須自己將兩顆馬達的正副兩極焊接上，所幸的是我們有過焊接經驗，在這方面影響並不會太大。
 
+![image](https://github.com/NCNU-OpenSource/camera-car/blob/master/car.jpg?raw=true)
+
+圖片中, 兩個馬達的兩個正負極, 皆沒有可以連至 L298N 的線路.
+
 #### PROBLEM 5: 實作自走車
 
 SOLUTION : https://drive.google.com/file/d/1fLWBfmpYYZmxTsMdCZoKF4_ddP6DUITG/view
