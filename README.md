@@ -164,3 +164,105 @@ p.s : 一開始在進入此ip時曾經發生 access denied 的情形, 我們解�
 SOLUTION : 我們訂購的自走車套件，現貨到的時候我們沒有仔細檢查，在開始做之後才發現馬達上有缺陷，並沒有接出正負兩極的線路讓我們能連到自走車套件上，
 
 所以我們必須自己將兩顆馬達的正副兩極焊接上，所幸的是我們有過焊接經驗，在這方面影響並不會太大。
+
+#### PROBLEM 5: 實作自走車
+
+SOLUTION : https://drive.google.com/file/d/1fLWBfmpYYZmxTsMdCZoKF4_ddP6DUITG/view
+
+上述網址為實作後的結果, 最後的終端機所顯示的f, r, l, b, s 分別為前進, 右轉, 左轉, 後退, 停留的指令, 這部分可由輪子的轉向可以看出.
+
+要控制自走車, 首先要先在 /usr/bin 底下建立一個操控 L298N 的檔案, 在這取名為car2.py.
+
+程式碼內容為:
+
+#! /usr/bin/python
+ 
+import RPi.GPIO as gpio
+
+import sys
+ 
+gpio.setwarnings(False)
+
+gpio.setmode(gpio.BOARD)
+
+gpio.setup(7, gpio.OUT)
+
+gpio.setup(11, gpio.OUT)
+
+gpio.setup(13, gpio.OUT)
+
+gpio.setup(15, gpio.OUT)
+ 
+if len(sys.argv)<=1:
+
+　cmd = 'stop'
+
+else:
+
+    cmd = sys.argv[1]
+ 
+print(cmd)
+ 
+if cmd == 'B' or cmd =='b':
+
+　gpio.output(7, True)
+
+　gpio.output(11, False)
+
+　gpio.output(13, True)
+
+　gpio.output(15, False)
+
+elif cmd == 'S' or cmd =='s':
+
+　gpio.output(7, False)
+
+　gpio.output(11, False)
+
+　gpio.output(13, False)
+
+　gpio.output(15, False)
+
+elif cmd == 'F' or cmd =='f':
+
+　gpio.output(7, False)
+
+　gpio.output(11, True)
+
+　gpio.output(13, False)
+
+　gpio.output(15, True)
+
+elif cmd == 'L' or cmd =='l':
+
+　gpio.output(7, True)
+
+　gpio.output(11, False)
+
+　gpio.output(13, False)
+
+　gpio.output(15, True)
+
+elif cmd == 'R' or cmd =='r':
+
+　gpio.output(7, False)
+
+　gpio.output(11, True)
+
+　gpio.output(13, True)
+
+　gpio.output(15, False)
+
+else:
+
+　gpio.output(7, False)
+
+　gpio.output(11, False)
+
+　gpio.output(13, False)
+
+　gpio.output(15, False)
+
+程式內容大意為 :
+
+根據收到的指令, 給不同的 pin 角不同的高低電位, 使得左右輪子有自己的旋轉方向, 這樣就能實現行走的功能了.
