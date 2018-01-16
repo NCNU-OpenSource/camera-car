@@ -24,6 +24,10 @@ http://www.arthurtoday.com/2010/08/ubuntu.html
 
 http://yhhuang1966.blogspot.tw/2017/06/arduino_28.html ---底盤組裝參考
 
+8.自走車接線:http://hophd.com/raspberry-pi-remote-car-hardware/ --硬體接線
+
+9.自走車軟體部分:http://hophd.com/raspberry-pi-remote-car-program/  --程式是參考此為底寫的
+
 ## 使用器材
 1.長度20cm 10pin的母對母排線
 
