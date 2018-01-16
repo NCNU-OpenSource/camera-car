@@ -108,8 +108,17 @@ p.s. 2: 因ssh進pi的文字顯示是黑色的, 所以可以在putty設定裡將
   
 p.s. 3: 在遇到access denied的情況下, 我們這遇到的情況是pi的ssh服務未開啟, 執行 sudo raspi-config, 進入interfacing option 即可將ssh功能啟動.
   
-  
+p.s. 4: 圖形化介面的使用
 
+雖然我們原本的目標是使用圖形化介面來開啟攝影機儲存的照片，但我們後來發現只要讓電腦上的瀏覽器連線到raspberry pi也可以達到同樣的功能
+
+圖形化介面的部分就變得不是很必要，但在此還是將其補上
+
+以下兩張圖分別是ssh到pi後開啟圖形化介面，以及圖形化介面的展示
+
+![image](https://github.com/NCNU-OpenSource/camera-car/blob/master/ssh.jpg?raw=true)
+
+![image](https://github.com/NCNU-OpenSource/camera-car/blob/master/ssh1.jpg?raw=true)
 
 #### PROBLEM 2: 因pi外接了攝影機鏡頭, 我們必須要有方法能檢視鏡頭錄到的東西.
 
