@@ -192,9 +192,19 @@ SOLUTION : 我們訂購的自走車套件，現貨到的時候我們沒有仔細
 
 圖片中, 兩個馬達的兩個正負極, 皆沒有可以連至 L298N 的線路.
 
+![image](https://github.com/NCNU-OpenSource/camera-car/blob/master/car3.jpg?raw=true)
+
+上圖為焊接後馬達的線路，可以清楚看到馬達正負極已經焊好線路了。
+
 #### PROBLEM 5: 實作自走車
 
-SOLUTION : https://drive.google.com/file/d/1fLWBfmpYYZmxTsMdCZoKF4_ddP6DUITG/view
+SOLUTION :
+
+![image](https://github.com/NCNU-OpenSource/camera-car/blob/master/car4.jpg?raw=true)
+
+上圖為自走車完成圖，相機掛在前方。實際運作觀看影片展示
+
+影片: https://drive.google.com/file/d/1fLWBfmpYYZmxTsMdCZoKF4_ddP6DUITG/view
 
 上述網址為實作後的結果, 最後的終端機所顯示的f, r, l, b, s 分別為前進, 右轉, 左轉, 後退, 停留的指令, 這部分可由輪子的轉向可以看出.
 
