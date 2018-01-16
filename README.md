@@ -8,21 +8,21 @@
 車體可以遙控行走，也可以藉由wifi傳輸相機拍照後的影像回來。
 
 ## 參考網站
-1.拍照功能:http://atceiling.blogspot.tw/2014/04/raspberry-pi-webcam.html
+1.拍照功能:http://atceiling.blogspot.tw/2014/04/raspberry-pi-webcam.html  --包含軟體的安裝、指令等
 
-2.連線功能:https://sites.google.com/site/raspberypishare0918/home/di-yi-ci-qi-dong/1-6-you-xian-huo-wu-xian-dedhcp
+2.連線功能:https://sites.google.com/site/raspberypishare0918/home/di-yi-ci-qi-dong/1-6-you-xian-huo-wu-xian-dedhcp --此為DHCP透過網路線有線的連線
 
-3.修正連線問題:https://superuser.com/questions/42460/can-you-explain-how-to-understand-what-the-iwconfig-command-displays-in-ubuntu    
+3.修正連線問題:https://superuser.com/questions/42460/can-you-explain-how-to-understand-what-the-iwconfig-command-displays-in-ubuntu  --提到密碼的設定必須為13個ascii字元
 
-https://www.ptt.cc/bbs/Linux/M.1318004307.A.D42.html
+https://www.ptt.cc/bbs/Linux/M.1318004307.A.D42.html --編輯/etc/network/interfaces內容的部分
 
-http://www.arthurtoday.com/2010/08/ubuntu.html
+http://www.arthurtoday.com/2010/08/ubuntu.html --鍵入指令開啟wifi
 
-4.SSH to raspberrypi:http://yhhuang1966.blogspot.tw/2014/02/ssh.html
+4.SSH to raspberrypi:http://yhhuang1966.blogspot.tw/2014/02/ssh.html --putty連線到raspberry pi
 
-5.SSH一些設定的修正:https://www.youtube.com/watch?v=RgUM8ulMfHE
+5.SSH一些設定的修正:https://www.youtube.com/watch?v=RgUM8ulMfHE  --打開ssh權限(之前有被擋下來，所以特別去查)
 
-6.使用圖形化介面ssh raspberrypi:https://www.youtube.com/watch?v=miGXUFyBvJQ
+6.使用圖形化介面ssh raspberrypi:https://www.youtube.com/watch?v=miGXUFyBvJQ  --Xming的相關設定部分
 
 7.自走車套件組裝:http://goods.ruten.com.tw/item/show?21735010050329 ---參考自走車成品圖
 
@@ -132,7 +132,7 @@ p.s.: 完成後補述
 
 雖然我們原本的目標是使用圖形化介面來開啟攝影機儲存的照片，但我們後來發現只要讓電腦上的瀏覽器連線到raspberry pi也可以達到同樣的功能
 
-圖形化介面的部分就變得不是很必要，但在此還是將其補上
+因此，圖形化介面的部分就變得不是很必要，但在此還是將其補上。
 
 以下兩張圖分別是ssh到pi後開啟圖形化介面，以及圖形化介面的展示
 
