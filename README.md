@@ -113,6 +113,10 @@ ssid即為wifi id, key 為密碼.
 再來輸入 sudo ifconfig wlan0 up 啟用無線網卡,
   
 最後打上 sudo dhclient -v wlan0 即連線成功.
+
+![image](https://github.com/NCNU-OpenSource/camera-car/blob/master/wlan0.PNG?raw=true)
+
+可看到圖中的 wlan0(無線網卡) 已有自己的ip.
  
 再來用ifconfig獲取pi的ip後, 即可使用ssh登入pi的終端機畫面.
   
